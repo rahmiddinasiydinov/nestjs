@@ -52,6 +52,7 @@ export class AuthService {
       throw new BadRequestException('Incorrect password');
     }
 
+    
     return user;
   }
 }
